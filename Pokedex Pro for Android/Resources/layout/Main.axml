@@ -9,7 +9,7 @@
         android:text="Pokedex"
         android:id="@+id/pokedexButton"
         android:drawableTop="@drawable/pokedex_icon"
-        android:layout_row="1"
+        android:layout_row="0"
         android:layout_column="0"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1" />
@@ -17,7 +17,7 @@
         android:text="Type"
         android:id="@+id/typeButton"
         android:drawableTop="@drawable/type_icon"
-        android:layout_row="1"
+        android:layout_row="0"
         android:layout_column="1"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1" />
@@ -25,15 +25,15 @@
         android:text="Move"
         android:id="@+id/moveButton"
         android:drawableTop="@drawable/move_icon"
-        android:layout_row="1"
+        android:layout_row="0"
         android:layout_column="2"
         android:layout_rowWeight="1"
-        android:layout_columnWeight="2" />
+        android:layout_columnWeight="1" />
     <Button
         android:text="Egg Group"
         android:id="@+id/eggGroupButton"
         android:drawableTop="@drawable/egg_group_icon"
-        android:layout_row="2"
+        android:layout_row="1"
         android:layout_column="0"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1" />
@@ -41,7 +41,7 @@
         android:text="Nature"
         android:id="@+id/natureButton"
         android:drawableTop="@drawable/nature_icon"
-        android:layout_row="2"
+        android:layout_row="1"
         android:layout_column="1"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1" />
@@ -49,15 +49,15 @@
         android:text="Ability"
         android:id="@+id/abilityButton"
         android:drawableTop="@drawable/ability_icon"
-        android:layout_row="2"
+        android:layout_row="1"
         android:layout_column="2"
         android:layout_rowWeight="1"
-        android:layout_columnWeight="2" />
+        android:layout_columnWeight="1" />
     <Button
         android:text="Item"
         android:id="@+id/itemButton"
         android:drawableTop="@drawable/item_icon"
-        android:layout_row="3"
+        android:layout_row="2"
         android:layout_column="0"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1" />
@@ -65,7 +65,7 @@
         android:text="Location"
         android:id="@+id/locationButton"
         android:drawableTop="@drawable/location_icon"
-        android:layout_row="3"
+        android:layout_row="2"
         android:layout_column="1"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1" />
@@ -73,8 +73,8 @@
         android:text="Setting"
         android:id="@+id/settingButton"
         android:drawableTop="@drawable/setting_icon"
-        android:layout_row="3"
+        android:layout_row="2"
         android:layout_column="2"
         android:layout_rowWeight="1"
-        android:layout_columnWeight="2" />
+        android:layout_columnWeight="1" />
 </GridLayout>
