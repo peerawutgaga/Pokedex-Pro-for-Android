@@ -48,31 +48,34 @@ namespace Pokedex_Pro_for_Android
 			public const int ability_icon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int egg_group_icon = 2130837505;
+			public const int app_icon = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int egg_group_icon = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int item_icon = 2130837507;
+			public const int Icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int location_icon = 2130837508;
+			public const int item_icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int move_icon = 2130837509;
+			public const int location_icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int nature_icon = 2130837510;
+			public const int move_icon = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int pokedex_icon = 2130837511;
+			public const int nature_icon = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int setting_icon = 2130837512;
+			public const int pokedex_icon = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int type_icon = 2130837513;
+			public const int setting_icon = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int type_icon = 2130837514;
 			
 			static Drawable()
 			{
@@ -146,11 +149,8 @@ namespace Pokedex_Pro_for_Android
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int ApplicationName = 2130968576;
 			
 			static String()
 			{

@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Pokedex_Pro_for_Android
 {
-    [Activity(Label = "Pokedex Pro for Android", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Pokedex Pro", MainLauncher = true, Icon = "@drawable/app_icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
