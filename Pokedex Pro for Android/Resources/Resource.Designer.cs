@@ -54,25 +54,25 @@ namespace Pokedex_Pro_for_Android
 			public const int egg_group_icon = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int item_icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int item_icon = 2130837508;
+			public const int location_icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int location_icon = 2130837509;
+			public const int move_icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int move_icon = 2130837510;
+			public const int nature_icon = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int nature_icon = 2130837511;
+			public const int pokedex_icon = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int pokedex_icon = 2130837512;
+			public const int setting_icon = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int setting_icon = 2130837513;
+			public const int team_icon = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
 			public const int type_icon = 2130837514;
@@ -117,6 +117,9 @@ namespace Pokedex_Pro_for_Android
 			// aapt resource value: 0x7f050009
 			public const int settingButton = 2131034121;
 			
+			// aapt resource value: 0x7f05000a
+			public const int teamMakerButton = 2131034122;
+			
 			// aapt resource value: 0x7f050002
 			public const int typeButton = 2131034114;
 			
@@ -135,6 +138,9 @@ namespace Pokedex_Pro_for_Android
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int PokedexView = 2130903041;
 			
 			static Layout()
 			{
