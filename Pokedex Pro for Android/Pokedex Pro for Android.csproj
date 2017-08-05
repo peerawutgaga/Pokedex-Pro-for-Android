@@ -57,7 +57,16 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AbilityActivity.cs" />
+    <Compile Include="UI\EggGroupActivity.cs" />
+    <Compile Include="UI\ItemActivity.cs" />
+    <Compile Include="UI\LocationActivity.cs" />
+    <Compile Include="UI\MoveActivity.cs" />
+    <Compile Include="UI\NatureActivity.cs" />
     <Compile Include="UI\PokedexActivity.cs" />
+    <Compile Include="UI\SettingActivity.cs" />
+    <Compile Include="UI\TeamMakerActivity.cs" />
+    <Compile Include="UI\TypeActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

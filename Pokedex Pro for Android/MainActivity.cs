@@ -9,7 +9,8 @@ namespace Pokedex_Pro_for_Android
     [Activity(Label = "Pokedex Pro", MainLauncher = true, Icon = "@drawable/app_icon")]
     public class MainActivity : Activity
     {
-        Button pokedexButton;
+        private Button pokedexButton;
+        private Button typeButton;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -24,6 +25,14 @@ namespace Pokedex_Pro_for_Android
                 pokedexButton.Click += (sender, e) =>
                 {
                     StartActivity(typeof(UI.PokedexActivity));
+                };
+            }
+            typeButton = FindViewById<Button>(Resource.Id.typeButton);
+            if (typeButton != null)
+            {
+                typeButton.Click += (sender, e) =>
+                {
+                    StartActivity(typeof(UI.TypeActivity));
                 };
             }
         }
