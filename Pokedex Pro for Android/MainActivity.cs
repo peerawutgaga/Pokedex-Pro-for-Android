@@ -11,6 +11,7 @@ namespace Pokedex_Pro_for_Android
     {
         private Button pokedexButton;
         private Button typeButton;
+        private Button natureButton;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -35,6 +36,15 @@ namespace Pokedex_Pro_for_Android
                     StartActivity(typeof(UI.TypeActivity));
                 };
             }
+            natureButton = FindViewById<Button>(Resource.Id.natureButton);
+            if(natureButton != null)
+            {
+                natureButton.Click += (sender, e) =>
+                {
+                    StartActivity(typeof(UI.NatureActivity));
+                };
+            }
+            
         }
         
     }

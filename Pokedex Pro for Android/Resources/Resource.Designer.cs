@@ -96,6 +96,9 @@ namespace Pokedex_Pro_for_Android
 			// aapt resource value: 0x7f050004
 			public const int eggGroupButton = 2131034116;
 			
+			// aapt resource value: 0x7f05000e
+			public const int firstLineLabel = 2131034126;
+			
 			// aapt resource value: 0x7f050007
 			public const int itemButton = 2131034119;
 			
@@ -122,6 +125,9 @@ namespace Pokedex_Pro_for_Android
 			
 			// aapt resource value: 0x7f05000d
 			public const int rowLabel = 2131034125;
+			
+			// aapt resource value: 0x7f05000f
+			public const int secondLineLabel = 2131034127;
 			
 			// aapt resource value: 0x7f050009
 			public const int settingButton = 2131034121;
@@ -152,7 +158,10 @@ namespace Pokedex_Pro_for_Android
 			public const int PokedexScreen = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Row = 2130903042;
+			public const int RowWithIcon = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int TwoLinesRow = 2130903043;
 			
 			static Layout()
 			{

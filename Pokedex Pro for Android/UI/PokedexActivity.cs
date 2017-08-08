@@ -17,6 +17,7 @@ namespace Pokedex_Pro_for_Android.UI
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            //TODO Fetch pokemon list from database
             base.OnCreate(savedInstanceState);
             String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
                 "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
@@ -33,7 +34,7 @@ namespace Pokedex_Pro_for_Android.UI
             Resource.Drawable.location_icon,Resource.Drawable.move_icon,
             Resource.Drawable.nature_icon,Resource.Drawable.pokedex_icon,
             Resource.Drawable.setting_icon,Resource.Drawable.team_icon};
-            this.ListAdapter = new Adapter.RowAdapter(this, values, iconIds);
+            this.ListAdapter = new Adapter.RowWithIconAdapter(this, values, iconIds);
         }
     }
 }

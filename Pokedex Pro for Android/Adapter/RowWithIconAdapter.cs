@@ -12,14 +12,14 @@ using Android.Widget;
 
 namespace Pokedex_Pro_for_Android.Adapter
 {
-    class RowAdapter : BaseAdapter
+    class RowWithIconAdapter : BaseAdapter
     {
 
-        Context context;
-        String[] labels;
-        int[] iconIdList;
+        private Context context;
+        private String[] labels;
+        private int[] iconIdList;
 
-        public RowAdapter(Context context, String[] labels, int[] iconIdList)
+        public RowWithIconAdapter(Context context, String[] labels, int[] iconIdList)
         {
             this.context = context;
             this.labels = labels;
@@ -48,7 +48,7 @@ namespace Pokedex_Pro_for_Android.Adapter
             {
                 holder = new RowAdapterViewHolder();
                 var inflater = context.GetSystemService(Context.LayoutInflaterService).JavaCast<LayoutInflater>();
-                row = inflater.Inflate(Resource.Layout.Row, parent, false);
+                row = inflater.Inflate(Resource.Layout.RowWithIcon, parent, false);
                 TextView rowTextView = row.FindViewById<TextView>(Resource.Id.rowLabel);
                 rowTextView.SetText(labels[position],TextView.BufferType.Normal);
                 ImageView rowImageView = row.FindViewById<ImageView>(Resource.Id.rowIcon);

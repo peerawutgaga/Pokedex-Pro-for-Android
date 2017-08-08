@@ -18,8 +18,7 @@ namespace Pokedex_Pro_for_Android.UI
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your application here
+            
         }
     }
 }
